@@ -262,11 +262,11 @@ h1, h2, h3, h4, h5, h6{
 	color: white;
 }
 #parallax {
-	background-image: url(../images/parallax.jpg);
+	background-image: url(../images/letter.jpg);
 	color: white;
 }
 #contact {
-	background-image: url(../images/newsletter-bg.png);
+	background-image: url(../images/letter.jpg);
 	color: white;
 	background-color: #405162;
 }
