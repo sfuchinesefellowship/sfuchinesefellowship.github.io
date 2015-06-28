@@ -254,6 +254,12 @@ h1, h2, h3, h4, h5, h6{
 	margin-top: 60px;
 }
 
+.transparent
+{
+    filter:alpha(opacity=50);
+    opacity: 0.50;
+}
+
 #header {
 	background-image: url(../images/sfu.jpg);
 }
