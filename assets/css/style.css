@@ -254,10 +254,10 @@ h1, h2, h3, h4, h5, h6{
 	margin-top: 60px;
 }
 
-.transparent
+#activity .transparent
 {
     filter:alpha(opacity=50);
-    opacity: 0.50;
+    opacity: 0.90;
 }
 
 #header {
@@ -361,6 +361,15 @@ h1, h2, h3, h4, h5, h6{
 	padding: 25px;
 }
 
+/*////////////////////////////////////////////////////////////////////////
+//  07 - activity
+///////////////////////////////////////////////////////////////////////*/
+#activity h1, #activity h2{
+	color: white;
+}
+.activity i {
+    font-size: 60px;
+}
 
 
 /*////////////////////////////////////////////////////////////////////////
