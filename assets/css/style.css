@@ -53,9 +53,11 @@ body {
 	background: #f1f0f0;
 }
 
-p {margin: 0 0 20px 0;	}
 
 img {max-width: 100%;}
+
+p {margin: 0 0 20px 0;	}
+
 
 a {
 	text-decoration: none;
@@ -407,14 +409,6 @@ table {
 	border-spacing: 0;
 }
 
-.row-offset-0 {
-	margin-left:0;
-	margin-right:0;
-}
-.row-offset-0>* {
-	padding-left:0;
-	padding-right:0;
-}
 
 /* ==========================================================================Portfolio========================================================================== */
 .swag {
@@ -429,6 +423,17 @@ table {
 	font-size:25px;
 	margin-top:20px;
 }
+
+.row-offset-0 {
+	margin-left:0;
+	margin-right:0;
+}
+.row-offset-0>* {
+	padding-left:0;
+	padding-right:0;
+}
+
+
 #portfolio .down-arrow-btn {
 	width:auto;
 	height:40px;
@@ -460,15 +465,21 @@ table {
 	outline:none!important;
 }
 
+.first{
+    position:relative;
+    position:relative;
+    overflow:hidden;
+}
 
 
-#portfolio img {
+#portfolio img{
+    position:relative;
+    position:relative;
     border:0;
     -ms-interpolation-mode:bicubic;
     height:360px;
     width:100%;
-    overflow:hidden;
-        }
+}
 
 #portfolio svg:not(:root) {
 	overflow: hidden;
@@ -481,7 +492,6 @@ img.grayscale {
 	/* Chrome 19+& Safari 6+*/ -webkit-transition:all .6s ease;
 	/* Fade to color for Chrome and Safari */ -webkit-backface-visibility:hidden;
 	/* Fix for transition flickering */
-    overflow:hidden;
 }
 img.grayscale:hover {
 	filter:none;
@@ -490,7 +500,7 @@ img.grayscale:hover {
 #logo{
 
        height: 360px 
-       width: 100%;
+       max-width: 100%;
        overflow: hidden;
 }
 
@@ -519,49 +529,19 @@ img.grayscale:hover {
 	padding:0;
 	height:auto;
 }
-.overlay {
-	display:block;
-	position:absolute;
-	z-index:20;
-	filter:none!important;
-	-webkit-filter:grayscale(0%);
-	overflow:hidden;
-	transition:all 0.5s;
-	-webkit-transition:all 0.5s;
-	-moz-transition:all 0.5s;
-	-o-transition:all 0.5s;
-}
-.overlay-effect .img i {
-	font-size:30px;
-}
-.overlay-effect .overlay {
-	bottom:0;
-	left:0;
-	right:0;
-	width:100%;
-	height:100%;
-	opacity:0;
-}
-.overlay-effect .overlay a.expand {
-	left:0;
-	right:0;
-	bottom:47%;
-	margin:0 auto -30px auto;
-}
-.overlay-effect .img.hover .overlay {
-	height:100%;
-	opacity:1;
-}
 .img  img {
-   	width:-webkit-calc(100%+40px) !important;
+    position:relative;
+	position:relative;
+	overflow:hidden;
+    width:-webkit-calc(100%+40px) !important;
 	width:calc(100%+40px) !important;
 	-webkit-transition:opacity 0.35s,-webkit-transform 0.35s;
 	transition:opacity 0.35s,transform 0.35s;
 	-moz-transition:opacity 0.35s,-moz-transform 0.35s;
 	-o-transition:opacity 0.35s,-o-transform 0.35s;
-	-webkit-transform:translate3d(-40px,0,0);
-	transform:translate3d(-40px,0,0);
-	-ms-transform:translate3d(-40px,0,0);
+	-webkit-transform:translate3d(0,-40px,0);
+	transform:translate3d(0,-40px,0);
+	-ms-transform:translate3d(0,-40px,0);
 }
 .img:hover   img {
 	-webkit-transform:translate3d(0,0,0);
