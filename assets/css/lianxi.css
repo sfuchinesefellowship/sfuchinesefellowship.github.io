@@ -1,0 +1,95 @@
+.imagine > img {
+    width:-webkit-calc(100%+40px) !important;
+    width:calc(100%+40px) !important;
+    -webkit-transition:opacity 0.35s,-webkit-transform 0.35s;
+    transition:opacity 0.35s,transform 0.35s;
+    -moz-transition:opacity 0.35s,-moz-transform 0.35s;
+    -o-transition:opacity 0.35s,-o-transform 0.35s;
+    -webkit-transform:translate3d(-40px,0,0);
+    transform:translate3d(-40px,0,0);
+    -ms-transform:translate3d(-40px,0,0);
+}
+
+
+.imagine:hover > img {
+    -webkit-transform:translate3d(0,0,0);
+    transform:translate3d(0,0,0);
+    -ms-transform:translate3d(-40px,0,0);
+}
+
+
+.effects {
+    padding-left:15px;
+}
+
+.effects .imagine {
+    position:relative;
+    position:relative;
+    z-index:1;
+    overflow:hidden;
+}
+
+
+
+.effects .imagine:nth-child(n) {
+    margin-right:5px;
+}
+.effects .imagine:first-child {
+    margin-left:-15px;
+}
+.effects .imagine:last-child {
+    margin-right:0;
+}
+.effects .imagine img {
+    display:block;
+    margin:0;
+    padding:0;
+    height:auto;
+}
+.overlay {
+    display:block;
+    position:absolute;
+    z-index:20;
+    filter:none!important;
+    -webkit-filter:grayscale(0%);
+    overflow:hidden;
+    transition:all 0.5s;
+    -webkit-transition:all 0.5s;
+    -moz-transition:all 0.5s;
+    -o-transition:all 0.5s;
+}
+.overlay-effect .imagine i {
+    font-size:30px;
+}
+.overlay-effect .overlay {
+    bottom:0;
+    left:0;
+    right:0;
+    width:100%;
+    height:100%;
+    opacity:0;
+}
+.overlay-effect .overlay a.expand {
+    left:0;
+    right:0;
+    bottom:47%;
+    margin:0 auto -30px auto;
+}
+.overlay-effect .imagine.hover .overlay {
+    height:100%;
+    opacity:1;
+}
+
+
+.hype {
+    position:absolute;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    top: 50px;
+}
+
+
+
+
