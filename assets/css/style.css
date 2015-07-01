@@ -30,7 +30,7 @@ Text Domain: flusk
 
 
 /* ///////////////////////////////////////////////////////////////////// 
-//  01 - Global 
+//  01 - Global img {max-width: 100%;}
 /////////////////////////////////////////////////////////////////////*/
 
 * {outline: none !important;}
@@ -53,10 +53,19 @@ body {
 	background: #f1f0f0;
 }
 
-
-img {max-width: 100%;}
+img {
+    9 ›   border:0;
+    8 ›   -ms-interpolation-mode:bicubic;
+    7 }
+svg:not(:root) {
+›   overflow: hidden;
+}
+figure {
+›   margin: 0;
+}
 
 p {margin: 0 0 20px 0;	}
+
 
 
 a {
@@ -158,6 +167,7 @@ h1, h2, h3, h4, h5, h6{
 #header .logo, #header .toggleDrawer{
 	font-family: 'Alegreya SC';
 	color: white;
+    outline:none;
 }
 
 #header .slogan{
@@ -404,26 +414,6 @@ h1, h2, h3, h4, h5, h6{
 	padding: 25px;
 }
 
-table {
-	border-collapse:collapse;
-	border-spacing: 0;
-}
-
-
-/* ==========================================================================Portfolio========================================================================== */
-.swag {
-	padding:75px 0;
-}
-.swag h1 {
-	text-transform:uppercase;
-	letter-spacing:5px;
-}
-.swag h1 span {
-	display:block;
-	font-size:25px;
-	margin-top:20px;
-}
-
 .row-offset-0 {
 	margin-left:0;
 	margin-right:0;
@@ -433,50 +423,9 @@ table {
 	padding-right:0;
 }
 
-
-#portfolio .down-arrow-btn {
-	width:auto;
-	height:40px;
-	background:rgba(0,0,0,0.6);
-	display:inline-block;
-	margin:15px 5px 15px 5px;
-	color:#fff;
-	font-size:16px;
-	line-height:40px;
-	padding:0px 10px;
-	text-align:center;
-}
-#portfolio .down-arrow-btn:hover,.down-arrow-btn:focus {
-	color:#fff;
-	background:rgba(0,0,0,1);
-}
-#portfolio a {
-	color: #E04343;
-	-webkit-transition:all 0.5s;
-	-moz-transition:all 0.5s;
-	-o-transition:all 0.5s;
-	transition:all 0.5s;
-	border-bottom: 1px dashed;
-	outline:none!important;
-}
-#portfolio a:hover,a:focus,a:active {
-	color:#0D0D0D;
-	text-decoration:none;
-	outline:none!important;
-}
-
-.first{
-    position:relative;
-    position:relative;
-    overflow:hidden;
-}
-
-
 #portfolio img{
     position:relative;
     position:relative;
-    border:0;
-    -ms-interpolation-mode:bicubic;
     height:360px;
     width:100%;
 }
@@ -496,12 +445,6 @@ img.grayscale {
 img.grayscale:hover {
 	filter:none;
 	-webkit-filter:grayscale(0%);
-}
-#logo{
-
-       height: 360px 
-       max-width: 100%;
-       overflow: hidden;
 }
 
 #portfolio .effects {
