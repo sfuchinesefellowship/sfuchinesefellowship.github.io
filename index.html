@@ -30,7 +30,6 @@
 		<link rel="stylesheet" href="assets/css/style.css" media="screen"/>
       <!-- JS -->
 
-		<script src="assets/js/owl.carousel.min.js"></script>
 
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>
@@ -238,64 +237,19 @@
 
         <div class="content-block" id="testimonials">
 
-         <div class="container">
-					<header class="block-heading cleafix animated zoomIn">
-						<h1>Testimonials</h1>
-						<p>Some happy customers have to say.</p>
-					</header>
-					<section class="block-body">
-						<div class="row">
-							<div class="col-md-4">
-								<div class="testimonial">
-									<img src="assets/images/testimonial_31-190x190.jpg">
-									<p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit in lorem.</p>
-									<strong>Jhon Doe</strong><br/>
-									<span>Head of Ideas, Technext</span>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="testimonial">
-									<img src="assets/images/testimonial_11-190x190.jpg">
-									<p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit in lorem.</p>
-									<strong>Jane Doe</strong><br/>
-									<span>CEO, Apple Inc</span>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="testimonial">
-									<img src="assets/images/testimonial_22-190x190.jpg">
-									<p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit in lorem.</p>
-									<strong>Albert Doe</strong><br/>
-									<span>Team Lead, Design Studio</span>
-								</div>
-							</div>
-						</div>
-					</section>
-				</div>
-
-
             <div class= "container">
-
-                <div class= "row text-center" id= "heading">
-                    <div class= "bg-image col-md-12">
-                        <div class= "col-md-6 col-md-offset-3 wow animated zoomInDown" id= "heading-text">
-                            <h3>Testimonials</h3>
-                            <p>Their satisfication, Our inspiration.</p>
-                            <hr class= "full">
-                            <br/>
-                        </div>
-                    </div>
-                </div>
+                <header class="block-heading cleafix animated zoomIn">
+                    <h1>Testimonials</h1>
+                    <p>Some happy customers have to say.</p>
+                </header>
 
                 <div class= "row">
                     <div class= "col-md-6 col-md-offset-3">
-                        
                         <div id="client-speech" class="owl-carousel owl-theme">
-
-                            <div class="item">
-                                <div class="col-md-4">
+                            <div class="item" align="center">
+                                <div class="col-md-6" align="center">
                                     <div class="testimonial">
-                                        <img src="assets/images/testimonial_31-190x190.jpg" alt="Testimonial item">
+                                        <img src="assets/images/laura.jpg" alt="Testimonial item">
                                         <p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit in lorem.</p>
                                         <strong>Jhon Doe</strong><br/>
                                         <span>Head of Ideas, Technext</span>
@@ -303,7 +257,27 @@
                                 </div>
                             </div>
 
+                            <div class="item">
+                                <div class="col-md-4">
+                                    <div class="testimonial">
+                                        <img src="assets/images/Jac.jpg" alt="Testimonial item">
+                                        <p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit in lorem.</p>
+                                        <strong>Jhon Doe</strong><br/>
+                                        <span>Head of Ideas, Technext</span>
+                                    </div>
+                                </div>
+                            </div>
 
+                            <div class="item">
+                                <div class="col-md-4">
+                                    <div class="testimonial">
+                                        <img src="assets/images/laura.jpg" alt="Testimonial item">
+                                        <p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit in lorem.</p>
+                                        <strong>Jhon Doe</strong><br/>
+                                        <span>Head of Ideas, Technext</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -449,8 +423,10 @@
     </div><!-- Wrapper-->
 
 
-   <script>
-        $(document).ready(function() {
+    <script src="assets/js/jquery-2.1.3.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function($) {
             $("#client-speech").owlCarousel({
                 autoPlay: 3000,
                 navigation : false, // Show next and prev buttons
@@ -497,7 +473,6 @@
     </script>
 
 
-    <script src="assets/js/jquery-2.1.3.min.js"></script>
     <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/jquery.actual.min.js"></script>
