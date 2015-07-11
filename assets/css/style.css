@@ -303,8 +303,13 @@ h1, h2, h3, h4, h5, h6{
 #services h1, #services h2{
 	color: white;
 }
+
+#services p{
+    color: white;
+    font-size:12;
+}
 .service i {
-    font-size: 60px;
+    font-size: 100px;
 }
 .service {
     padding: 0 25px;
