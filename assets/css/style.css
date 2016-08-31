@@ -126,6 +126,8 @@ h1, h2, h3, h4, h5, h6{
 	padding: 0 !important;
 }
 
+#header .overlay {
+    }
 
 #header .top {
 	position:fixed;
@@ -155,9 +157,10 @@ h1, h2, h3, h4, h5, h6{
     transition: all .5s;›   ›
 }
 #header .top.solid {
-    background: #475B6F;
     padding-top: 15px;
     padding-bottom: 15px;
+    background-color: black;
+    opacity: 0.3333;
 }
 
 #header .top h1{
