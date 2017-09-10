@@ -1649,6 +1649,14 @@ fwidth: 50%;
 .carousel .item {
   height: 600px;
 }
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+}
+
 
 .item img {
     position: absolute;
