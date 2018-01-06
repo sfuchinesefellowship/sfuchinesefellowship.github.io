@@ -1,0 +1,22 @@
+{
+  "name": "sfuchinesefellowship",
+  "version": "1.0.0",
+  "description": "The website for sfu chiense fellowship",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sfuchinesefellowship/sfuchinesefellowship.github.io.git"
+  },
+  "keywords": [
+    "website"
+  ],
+  "author": "rui wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sfuchinesefellowship/sfuchinesefellowship.github.io/issues"
+  },
+  "homepage": "https://github.com/sfuchinesefellowship/sfuchinesefellowship.github.io#readme"
+}
