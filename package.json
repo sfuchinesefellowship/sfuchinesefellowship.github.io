@@ -18,5 +18,21 @@
   "bugs": {
     "url": "https://github.com/sfuchinesefellowship/sfuchinesefellowship.github.io/issues"
   },
-  "homepage": "https://github.com/sfuchinesefellowship/sfuchinesefellowship.github.io#readme"
+  "homepage": "https://github.com/sfuchinesefellowship/sfuchinesefellowship.github.io#readme",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "mongodb": "^3.0.1",
+    "mongoose": "^5.0.0-rc2",
+    "passport": "^0.4.0",
+    "pug": "^2.0.0-rc.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^3.10.0",
+    "winston": "^2.4.0"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "devDependencies": {}
 }
