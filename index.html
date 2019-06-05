@@ -1,133 +1,385 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Home</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-	<meta name="author" content="" />
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
 
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Pinyon+Script" rel="stylesheet">
+<link rel="stylesheet" href="css/styles-merged.css">
+<link rel="stylesheet" href="css/style.min.css">
 
-	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">
+<!--[if lt IE 9]>
+  <script src="js/vendor/html5shiv.min.js"></script>
+  <script src="js/vendor/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
 
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
+<!-- Fixed navbar -->
 
-	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
-
-	<!-- Owl Carousel  -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
-
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
-
-	</head>
-	<body>
-
-	<div class="fh5co-loader"></div>
-
-	<div id="page">
-	<nav class="fh5co-nav" role="navigation">
-		<div class="top-menu">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-6">
-						<div id="fh5co-logo"><a href="index.html">SFU团契</a></div>
-					</div>
-					<div class="col-xs-6 text-right menu-1">
-						<ul>
-							<li class="active"><a href="index.html">主页</a></li>
-                            <li><a href="intro.html">团契</a></li>
-                            <li><a href="courses.html">查经</a></li>
-							<li><a href="pricing.html">活动</a></li>
-							<li class="has-dropdown">
-								<a href="blog.html">博客</a>
-								<ul class="dropdown">
-									<li><a href="http://sfufellow.wordpress.com">见证分享</a></li>
-									<li><a href="#">户外体验</a></li>
-									<li><a href="#">找工求职</a></li>
-									<li><a href="#">同城交友</a></li>
-								</ul>
-							</li>
-							<li><a href="contact.html">联系</a></li>
-					<!--		<li class="btn-cta"><a href="#"><span>Login</span></a></li>
-                    <li class="btn-cta"><a href="#"><span>Create a Course</span></a></li> -->
-						</ul>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</nav>
-
-    <header id="fh5co-header" class="fh5co-cover" role="banner" >  <!-- style="background-image:url(images/sfu3.jpg);" data-stellar-background-ratio="0.5"> -->
-        <video id="video-background" playsinline autoplay muted loop>
-        <source src="images/sfu_tour.mp4" type="video/mp4">
-        </video>
-
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center">
-					<div class="display-t">
-						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h2>SFU 学人团契隶属于大温哥华圣道堂, 面向SFU校园内來自中国的学生学者, 分享信仰，传播福音</h2>
-                            <!-- <p>Take A Course<i class="icon-play"></i> Watch Video</a></p> -->
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
-
-
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+<nav class="navbar navbar-default navbar-fixed-top probootstrap-navbar">
+  <div class="container">
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" aria-controls="navbar">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	  </button>
+	  <a class="navbar-brand" href="index.html" title="ProBootstrap:FineOak">FineOak</a>
 	</div>
 
-	<!-- jQuery -->
-	<script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Stellar Parallax -->
-	<script src="js/jquery.stellar.min.js"></script>
-	<!-- Carousel -->
-	<script src="js/owl.carousel.min.js"></script>
-	<!-- countTo -->
-	<script src="js/jquery.countTo.js"></script>
-	<!-- Magnific Popup -->
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/magnific-popup-options.js"></script>
-	<!-- Main -->
-	<script src="js/main.js"></script>
+	<div id="navbar-collapse" class="navbar-collapse collapse">
+	  <ul class="nav navbar-nav navbar-right">
+		<li class="active"><a href="#" data-nav-section="welcome">Welcome</a></li>
+		<li><a href="#" data-nav-section="specialties">活动介绍</a></li>
+		<li><a href="#" data-nav-section="menu">团契成员</a></li>
+		<li><a href="#" data-nav-section="reservation">Reservation</a></li>
+		<li><a href="#" data-nav-section="events">Events</a></li>
+		<li><a href="#" data-nav-section="contact">Contact</a></li>
+	  </ul>
+	</div>
+  </div>
+</nav>
 
-	</body>
+<section class="flexslider" data-section="welcome">
+  <ul class="slides">
+	<li style="background-image: url(img/sfu.png)"  >
+	  <div class="container">
+		<div class="row">
+		  <div class="col-md-8 col-md-offset-2">
+			<div class="probootstrap-slider-text text-center probootstrap-animate probootstrap-heading">
+			  <p class="sub-heading">SFU 学人团契隶属于大温哥华圣道堂, 面向SFU校园内來自中国的学生学者, 分享信仰，传播福音</p>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</li>
+  </ul>
+</section>
+
+<section class="probootstrap-section probootstrap-bg-white">
+  <div class="container">
+	<div class="row">
+	  <div class="col-md-5 text-center probootstrap-animate">
+		<div class="probootstrap-heading dark">
+		  <span class="seperator">* * *</span>
+		</div>
+		<p>SFU团契隶属于大温哥华圣道堂，面向SFU校园内來自中国的学生学者，定期查经和分享信息。
+			帮助慕道友来信靠神，基督徒灵里共同扎根长进。使大家在神纯正的話語里得造就，在基督的信心和爱心里成为一体。
+			并且彼此相爱，彼此鼓励，在校园里为主多得人心。无论你是来此求学的青年学生，还是短暂停留的访问学者，SFU中国学人团契都会是你在这里一个温暖的家。
+			让我们一同分享学业的压力、海外生活的艰辛、未來的希望、和在神的爱里相知相悦的喜乐。让我们的生命焕发出更为持久和深厚的光彩，
+			让我们一起來认识那位至真至美的神</p>
+		<p><a href="#" class="probootstrap-custom-link">About Us</a></p>
+	  </div>
+	  <div class="col-md-6 col-md-push-1 probootstrap-animate">
+		<p><img src="img/img_2.png" class="img-responsive"></p>
+	  </div>
+	</div>
+	<!-- END row -->
+  </div>
+</section>
+
+<section class="probootstrap-section-bg overlay" style="background-image: url(img/img_4.jpg);" data-stellar-background-ratio="0.5" data-section="specialties">
+  <div class="container">
+	<div class="row">
+	  <div class="col-md-12 text-center probootstrap-animate">
+		<div class="probootstrap-heading">
+		  <h3 class="secondary-heading">活动介绍</h3>
+		</div>
+	  </div>
+	</div>
+  </div>
+</section>
+ <!-- probootstrap-bg-white -->
+<section class="probootstrap-section">
+  <div class="container">
+	<div class="row">
+	  <div class="probootstrap-cell-retro">
+		<div class="half">
+
+		  <div class="probootstrap-cell probootstrap-animate" data-animate-effect="fadeIn">
+			<div class="image" style="background-image: url(img/img_square_1.jpg);"></div>
+			<div class="text text-center">
+			  <h3>感恩节活动</h3>
+			  <p>感恩节晚宴，大家一起吃火鸡.</p>
+			  <p class="price">感恩节</p>
+			</div>
+		  </div>
+		  <div class="probootstrap-cell reverse probootstrap-animate" data-animate-effect="fadeIn">
+			<div class="image" style="background-image: url(img/img_square_2.jpg);"></div>
+			<div class="text text-center">
+			  <h3>篮球赛</h3>
+			  <p>在大温哥华圣道堂</p>
+			  <p class="price">室内活动</p>
+			</div>
+		  </div>
+		  <div class="probootstrap-cell probootstrap-animate" data-animate-effect="fadeIn">
+			<div class="image" style="background-image: url(img/img_square_3.jpg);"></div>
+			<div class="text text-center">
+			  <h3>欢迎新生</h3>
+			  <p>在SFU校园内，每个学期开学都会有活动，让大家相互认识，一起走进信仰</p>
+			  <p class="price">开学活动</p>
+			</div>
+		  </div>
+
+		</div>
+		<div class="half">
+
+		  <div class="probootstrap-cell probootstrap-animate" data-animate-effect="fadeIn">
+			<div class="image" style="background-image: url(img/img_square_4.jpg);"></div>
+			<div class="text text-center">
+			  <h3>户外爬山</h3>
+			  <p>夏天户外活动包括爬山，烧烤，海边活动等</p>
+			  <p class="price">户外活动</p>
+			</div>
+		  </div>
+		  <div class="probootstrap-cell reverse probootstrap-animate" data-animate-effect="fadeIn">
+			<div class="image" style="background-image: url(img/img_square_5.jpg);"></div>
+			<div class="text text-center">
+			  <h3>音乐布道会</h3>
+			  <p>每年都会有精彩的音乐会，让大家感受信仰带来新的力量</p>
+			  <p class="price">音乐会</p>
+			</div>
+		  </div>
+		  <div class="probootstrap-cell probootstrap-animate" data-animate-effect="fadeIn">
+			<div class="image" style="background-image: url(img/img_square_1.jpg);"></div>
+			<div class="text text-center">
+			  <h3>阅读圣经</h3>
+			  <p>学期中会有大家一起学圣经的活动</p>
+			  <p class="price">查经</p>
+			</div>
+		  </div>
+		  
+		</div>
+	  </div>
+	</div>
+  </div>
+</section>
+
+<section class="probootstrap-section-bg overlay" style="background-image: url(img/img_3.jpg);"  data-stellar-background-ratio="0.5"  data-section="menu">
+  <div class="container">
+	<div class="row">
+	  <div class="col-md-12 text-center probootstrap-animate">
+		<div class="probootstrap-heading">
+		  <h3 class="secondary-heading">团契成员</h3>
+		</div>
+	  </div>
+	</div>
+  </div>
+</section>
+
+<section class="probootstrap-section probootstrap-bg-white">
+  <div class="container">
+	<div class="row">
+	  <div class="col-md-6">
+		<ul class="menus">
+		  <li>
+			<figure class="image"><img src="img/face/simon.jpg" ></figure>
+			<div class="text">
+			  <span class="price">团契导师</span>
+			  <h3>程欣</h3>
+			  <p>SFU 计算机毕业</p>
+			</div>
+		  </li>
+		  <li>
+			<figure class="image"><img src="img/face/yangy.jpg"></figure>
+			<div class="text">
+					<span class="price">团契主席</span>
+					<h3>杨阳</h3>
+					<p>SFU 计算机毕业</p>
+			</div>
+		  </li>
+		  <li>
+			<figure class="image"><img src="img/face/pika.png"></figure>
+			<div class="text">
+			  <span class="price">团契副主席</span>
+			  <h3>雷松鹤</h3>
+			  <p>SFU 工程毕业</p>
+			</div>
+		  </li>
+		  <li>
+			<figure class="image"><img src="img/face/pika.png"></figure>
+			<div class="text">
+			  <span class="price">团契副主席</span>
+			  <h3>Selena</h3>
+			  <p>SFU Business</p>
+			</div>
+		  </li>
+		</ul>
+	  </div>
+	  <div class="col-md-6">
+		<ul class="menus">
+				  <li>
+					<figure class="image"><img src="img/face/Francis.jpg"></figure>
+				  <div class="text">
+						<span class="price">团契同工</span>
+						<h3>Francis</h3>
+						<p>SFU Engineer 毕业</p>
+					</div>
+					</li>
+					<li>
+					<figure class="image"><img src="img/face/wendy.png"></figure>
+					<div class="text">
+							<span class="price">团契同工</span>
+							<h3>wendy</h3>
+							<p>SFU Engineer 毕业</p>
+					</div>
+					</li>
+					<li>
+							<figure class="image"><img src="img/face/pika.png"></figure>
+							<div class="text">
+								<span class="price">团契同工</span>
+								<h3>SAM </h3>
+								<p>SFU Economic 毕业</p>
+							</div>
+							</li>
+					<li>
+					<figure class="image"><img src="img/face/pika.png"></figure>
+					<div class="text">
+						<span class="price">团契同工</span>
+						<h3>Helen </h3>
+						<p>SFU Business</p>
+					</div>
+					</li>
+		</ul>
+	  </div>
+	</div>
+  </div>
+</section>
+
+<section class="probootstrap-section-bg overlay" style="background-image: url(img/img_5.jpg);"  data-stellar-background-ratio="0.5" data-section="events">
+  <div class="container">
+	<div class="row">
+	  <div class="col-md-12 text-center probootstrap-animate">
+		<div class="probootstrap-heading">
+		  <h3 class="secondary-heading">学期活动</h3>
+		</div>
+	  </div>
+	</div>
+  </div>
+</section>
+<section class="probootstrap-section">
+  <div class="container">
+	<div class="row">
+	  <div class="col-md-4 col-sm-4 probootstrap-animate">
+		<div class="probootstrap-block-image">
+		  <figure><img src="img/img_square_2.jpg" alt="Free Bootstrap Template by sc.chinaz.com"></figure>
+		  <div class="text">
+			<span class="date">June 29, 2017</span>
+			<h3><a href="#">Laboriosam Quod Dignissimos</a></h3>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
+			<p class=""><a href="#" class="probootstrap-custom-link link-sm">Read More</a></p>
+		  </div>
+		</div>
+	  </div>
+	  <div class="col-md-4 col-sm-4 probootstrap-animate">
+		<div class="probootstrap-block-image">
+		  <figure><img src="img/img_square_3.jpg" alt="Free Bootstrap Template by sc.chinaz.com"></figure>
+		  <div class="text">
+			<span class="date">June 29, 2017</span>
+			<h3><a href="#">Laboriosam Quod Dignissimos</a></h3>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
+			<p class=""><a href="#" class="probootstrap-custom-link link-sm">Read More</a></p>
+		  </div>
+		</div>
+	  </div>
+	  <div class="col-md-4 col-sm-4 probootstrap-animate">
+		<div class="probootstrap-block-image">
+		  <figure><img src="img/img_square_4.jpg" alt="Free Bootstrap Template by sc.chinaz.com"></figure>
+		  <div class="text">
+			<span class="date">June 29, 2017</span>
+			<h3><a href="#">Laboriosam Quod Dignissimos</a></h3>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
+			<p class=""><a href="#" class="probootstrap-custom-link link-sm">Read More</a></p>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </div>
+</section>
+
+<section class="probootstrap-section probootstrap-bg-white" data-section="contact">
+  <div class="container">
+	<div class="row">
+	  <div class="col-md-5 text-center probootstrap-animate">
+		<div class="probootstrap-heading dark">
+		  <h3 class="secondary-heading">联系我们</h3>
+		</div>
+					<div>
+							<ul>
+									<li class="list-group-item">University Drive 8888, <br> Burnaby, BC, Canada</li>
+									<li class="list-group-item"><a href="mailto:info@sfufellowship.org">info@sfufellowship.org</a></li>
+									<li class="list-group-item">7788588072</li>
+							</ul>
+					</div>
+					<div class="column">						
+						<h3>微信公众号二维码</h3>
+						<a href="#"><img src="img/sfuwechat.jpg" alt="" class="img-responsive">	
+						</a>
+					</div>
+			</div>
+	  <div class="col-md-6 col-md-push-1 probootstrap-animate">
+				<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfg7580ockzBI1hk5ls6kCB625toGT63ycT1E2flom_RXZyAw/viewform?embedded=true" width="640" height="840" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+	  </div>
+	</div>
+  </div>
+</section>
+
+<section class="probootstrap-footer">
+  <div class="container">
+	<div class="row">
+	  <div class="col-md-6 probootstrap-animate">
+		<div class="probootstrap-footer-widget">
+		  <h3>活动时间地点</h3>
+		  <div class="row">
+			<div class="col-md-6">
+					<h3>微信公众号二维码</h3>
+					<a href="#"><img src="img/sfuwechat.jpg" alt="" class="img-responsive">	
+			</div>
+			<div class="col-md-6">
+			  <p> 地点： MBC 2268 <br> SFU Burnaby Campus</p>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  <div class="col-md-6 probootstrap-animate">
+		<div class="probootstrap-footer-widget">
+		  <h3>活动时间</h3>
+		  <div class="row">
+			<div class="col-md-4">
+			  <p>每个星期四 <br> 5:30pm - 8:00pm</p>
+			</div>
+			<div class="col-md-4">
+			  <p>免费食物：中餐 西餐<br> 欢迎联系我们，可以扫描微信二维码</p>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </div>
+</section>
+<section class="probootstrap-copyright">
+  <div class="container">
+	<div class="row">
+	  <div class="col-md-8">
+		<p class="copyright-text">Copyright &copy; 2019. SFU fellowship @ECBC reserved.</p>
+	  </div>
+	  <div class="col-md-4">
+		<ul class="probootstrap-footer-social right">
+		  <li><a href="#"><i class="icon-twitter"></i></a></li>
+		  <li><a href="#"><i class="icon-facebook"></i></a></li>
+		  <li><a href="#"><i class="icon-instagram"></i></a></li>
+		</ul>
+	  </div>
+	</div>
+  </div>
+</section>
+
+<script src="js/scripts.min.js"></script>
+<script src="js/custom.min.js"></script>
+
+</body>
 </html>
